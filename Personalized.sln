@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personalized", "Personalized\Personalized.csproj", "{BDA89B55-8E5B-4974-AF1E-8A924BF6D59A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{17001300-F146-4A2C-8D11-AB8C8DD2E85F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{BA1D4419-5114-4851-A910-7671EDD358C2}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{A0827984-8200-4983-B564-486E40D4ECCF}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\Personalized.json = PublishScripts\Templates\Personalized.json
+		PublishScripts\Templates\Personalized.param.dev.json = PublishScripts\Templates\Personalized.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDA89B55-8E5B-4974-AF1E-8A924BF6D59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA89B55-8E5B-4974-AF1E-8A924BF6D59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA89B55-8E5B-4974-AF1E-8A924BF6D59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA89B55-8E5B-4974-AF1E-8A924BF6D59A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA1D4419-5114-4851-A910-7671EDD358C2} = {17001300-F146-4A2C-8D11-AB8C8DD2E85F}
+		{A0827984-8200-4983-B564-486E40D4ECCF} = {17001300-F146-4A2C-8D11-AB8C8DD2E85F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+{
+  "siteName": {
+    "value": "Personalized"
+  },
+  "hostingPlanName": {
+    "value": "PersonalizedPlan"
+  },
+  "siteLocation": {
+    "value": "South Central US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "serverName": {
+    "value": "sqldbom"
+  },
+  "serverLocation": {
+    "value": "Central US"
+  },
+  "administratorLogin": {
+    "value": "omthap"
+  },
+  "administratorLoginPassword": {
+    "value": "O1823Mazure"
+  },
+  "databaseName": {
+    "value": "Personalized_db"
+  }
+}
